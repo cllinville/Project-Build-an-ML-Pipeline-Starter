@@ -86,7 +86,7 @@ def go(config: DictConfig):
 
         if "data_split" in active_steps:
             _ = mlflow.run(
-                os.path.abspath("src/data_split"),
+                f"{config['main']['components_repository']}/train_val_test_split",
                 "main",
                 env_manager="conda",
                 parameters={
@@ -110,6 +110,7 @@ def go(config: DictConfig):
                 env_manager="conda",
                 parameters={
                     "trainval_artifact": "trainval_data.csv:latest",
+                    "val_size": config["modeling"]["val_size"],
                     "rf_config": rf_config,
                     "output_artifact": "random_forest_export",
                     "random_seed": config["modeling"]["random_seed"],
