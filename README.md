@@ -179,3 +179,11 @@ Please, make sure all steps are using **the same** python version and that you h
 ## License
 
 [License](LICENSE.txt)
+
+## Project Linnks
+
+### Weights & Biases Project
+https://wandb.ai/ceiaralinville-western-governors-university/nyc_airbnb
+
+### GitHub Respository
+https://github.com/cllinville/Project-Build-an-ML-Pipeline-Starter
