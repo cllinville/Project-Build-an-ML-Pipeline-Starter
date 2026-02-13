@@ -180,7 +180,7 @@ Please, make sure all steps are using **the same** python version and that you h
 
 [License](LICENSE.txt)
 
-## Project Linnks
+## Project Links
 
 ### Weights & Biases Project
 https://wandb.ai/ceiaralinville-western-governors-university/nyc_airbnb
